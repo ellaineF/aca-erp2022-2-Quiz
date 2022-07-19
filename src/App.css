@@ -2,6 +2,230 @@
   text-align: center;
 }
 
+.Title{
+  /*background-color:black;*/
+  margin-top: 80px;
+  padding:0 30px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.loading{
+  display: flex;
+  justify-content: center;
+}
+
+.loading::after{
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 10px solid transparent;
+  border-top-color: rgba(108,237,246,0.2);
+  border-bottom-color: #6CEDF6;
+  border-radius: 50%;
+  animation: loading 1s ease-in-out infinite;
+}
+
+@keyframes loading {
+  to{
+    transform: rotate(1turn);
+  }
+  
+}
+
+.Score{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif;
+  color:rgb(225, 186, 14);
+  text-shadow: 2px 2px 4px #546433;
+}
+
+.prompt{
+  font-size: 28px;
+  font-family: 'Varela Round', sans-serif;
+  color:gainsboro;
+  margin-top: 50px;
+}
+
+.QuestionCard, .QuestionCard2{
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: rgb(11, 159, 137);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  font-family: 'Varela Round', sans-serif;
+  color:gainsboro;
+  top: 60%;
+  left: 1%;
+  right: 1%;
+}
+
+.QuestionCard2{
+  background-color:rgba(111, 30, 205, 0.557);
+  height:max-content;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.options,.CorrectAnswer{
+  text-align: justify;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.options label, .CorrectAnswer label{
+  background-color: rgba(118, 167, 163, 0.501);
+  font-family: 'Varela Round', sans-serif;
+  width: 90%;
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.CorrectAnswer label{
+  background-color: rgba(118, 167, 163, 0.501);
+  font-family: 'Varela Round', sans-serif;
+  width: 90%;
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.CorrectAnswer label{
+  background-color: rgba(28, 242, 99, 0.501);
+}
+
+.options button{
+  font-family: 'Varela Round', sans-serif;
+  width: 90%;
+  height: 30px;
+  margin: 5px;
+  margin-left: 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-delay:0.8s;
+}
+
+.options button:hover{
+  box-shadow: -2px 2px 15px 5px green, 0 17px 50px 0 #61dafb;
+  background:rgb(253, 194, 98);
+}
+
+.StartButton{ 
+  width: 25%; 
+  padding: 15px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive;
+  background-color:maroon;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.StartButton:hover{
+  box-shadow: -2px 2px 22px 5px #00ffff, 0 17px 50px 0 #61dafb;
+}
+
+.NextButton{
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  padding: 15px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive;
+  background-color:darkolivegreen;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.FinButton{
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  padding: 15px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive;
+  background-color:darkslategrey;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.FinButton:hover{
+  box-shadow: -2px 2px 22px 5px red, 0 17px 50px 0 white;
+}
+
+.NextButton:hover{
+  box-shadow: -2px 2px 22px 5px purple, 0 17px 50px 0 #61dafb;
+}
+
+.RestartButton{ 
+  width: 25%; 
+  padding: 15px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive;
+  background-color:rgba(120, 28, 226, 0.882);
+  color:rgb(231, 189, 135);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.RestartButton:hover{
+  box-shadow: -2px 2px 22px 5px white, 0 17px 50px 0 #61dafb;
+}
+
+.RestartButton2{ 
+  width: 25%; 
+  padding: 15px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive;
+  background-color:rgba(69, 87, 14, 0.882);
+  color:rgb(231, 189, 135);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.RestartButton2:hover{
+  box-shadow: -2px 2px 22px 5px white, 0 17px 50px 0 #61dafb;
+}
+
+.links {
+  color: white;
+}
+
+a.link{
+  color:yellowgreen;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +238,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fff;
+  background-image: url(./images/anh-nguyen.jpg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +250,13 @@
 }
 
 .App-link {
+  margin: 10px;
   color: #61dafb;
+}
+
+.App-link2 {
+  margin: 10px;
+  color:royalblue;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +266,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pic{
+  width: 100%;
+  height: 20%;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

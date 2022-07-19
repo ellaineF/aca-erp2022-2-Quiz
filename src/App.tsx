@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './aca.png';
 import './App.css';
+import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import MainScreen from './Components/MainScreen';
+import QuizStart from './Components/QuizStart';
+import EndScreen from './Components/EndScreen';
+import Answers from './Components/Answers';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} style={{maxWidth:150, maxHeight:150}} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://africacode.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          I Love ACA
-        </a>
-      </header>
-    </div>
-  );
+    return(
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainScreen/>}/>
+          <Route path="/QuizStart" element={<QuizStart/>}/>
+          <Route path="/EndScreen" element={<EndScreen/>}/>
+          <Route path="/Answers" element={<Answers/>}/>
+        </Routes> 
+      </Router>
+    );
 }
+
+
 
 export default App;
