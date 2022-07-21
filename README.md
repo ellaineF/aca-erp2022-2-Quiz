@@ -1,3 +1,15 @@
+# Updated Instructions
+
+## To Start Up
+
+Within the directory, the only script to run is:
+
+### `npm start`
+
+The application runs and interactive design is free to explore. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
