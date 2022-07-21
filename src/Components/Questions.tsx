@@ -7,7 +7,12 @@ export const Questions = [
         optionC: "git copy",
         optionD: "git clone",
         answer: "D",
-        apply: "git commands are always in lowercase"
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> To clone the ACA quiz repository<br/>
+            <b>2. Reason for use:</b> To alter the original repository's clone to not affect the original <br />
+            <b>3. Location used:</b> terminal and in local folder<br />
+            </p>,
     },
     {
         // i[1]
@@ -17,6 +22,12 @@ export const Questions = [
         optionC: "git pull",
         optionD: "git upload",
         answer: "B",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> Saves changes to a repository<br/>
+            <b>2. Reason for use:</b> To reflect the changes to the original repository <br />
+            <b>3. Location used:</b> terminal <br />
+            </p>,
     },
     {
         // i[2]
@@ -26,6 +37,12 @@ export const Questions = [
         optionC: "commit",
         optionD: "commits",
         answer: "C",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> Save changes in a repository<br/>
+            <b>2. Reason for use:</b> To modify and update changes in the repository <br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[3]
@@ -35,6 +52,12 @@ export const Questions = [
         optionC: "suitcase",
         optionD: "repository",
         answer: "D",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b>Stores folders and file of projects<br/>
+            <b>2. Reason for use:</b> To store our forked repository <br />
+            <b>3. Location used:</b> In GitHub, VSCode, and Terminal<br />
+            </p>,
     },
     {
         // i[4]
@@ -44,6 +67,12 @@ export const Questions = [
         optionC: "It enables developers to edit the files",
         optionD: "It enables developers to write their signature on the files",
         answer: "C",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> (of the pencil icon) directs users to edit a file<br/>
+            <b>2. Reason for use:</b> Make last minute changes to the README.md files from the gui <br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[5]
@@ -53,6 +82,12 @@ export const Questions = [
         optionC: "git log",
         optionD: "git add",
         answer: "D",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> Adds a change in the working directory to the staging area<br/>
+            <b>2. Reason for use:</b> store changes aside to be used to commit to local repository <br />
+            <b>3. Location used:</b> In Terminal<br />
+            </p>,
     },
     {
         // i[6]
@@ -62,6 +97,12 @@ export const Questions = [
         optionC: "git log",
         optionD: "git commits",
         answer: "B",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> Displays the state of working directory and staging area<br/>
+            <b>2. Reason for use:</b> To see tracked and untracked files and changes <br />
+            <b>3. Location used:</b> In Terminal<br />
+            </p>,
     },
     {
         // i[7]
@@ -71,6 +112,12 @@ export const Questions = [
         optionC: "Pull Requests tab",
         optionD: "Projects tab",
         answer: "A",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> Acts as subfolder that stores source code, commits, tags, downloads<br/>
+            <b>2. Reason for use:</b> to view and edit files in the repository <br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[8]
@@ -80,6 +127,12 @@ export const Questions = [
         optionC: "git status",
         optionD: "git commit",
         answer: "B",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> To Fetch and download content from a remote repository<br/>
+            <b>2. Reason for use:</b> To Fetch the ACA quiz repository <br />
+            <b>3. Location used:</b> In Terminal<br />
+            </p>,
     },
     {
         // i[9]
@@ -89,6 +142,12 @@ export const Questions = [
         optionC: "git revert",
         optionD: "git rebase",
         answer: "C",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> Undo changes in the repository's commit history<br/>
+            <b>2. Reason for use:</b> To undo a commit change <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[10]
@@ -98,6 +157,12 @@ export const Questions = [
         optionC: "Add File > Upload Files > Choose your Files",
         optionD: "Add File > Upload Files > Upload Folders",
         answer: "C",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> Creating a new repository<br/>
+            <b>2. Reason for use:</b> Manually create a new repository <br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[11]
@@ -107,6 +172,12 @@ export const Questions = [
         optionC: "Look in File, Search in File",
         optionD: "Search File, Jump",
         answer: "A",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> Searches for a specific item<br/>
+            <b>2. Reason for use:</b>Search for specific items easily <br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[12]
@@ -116,6 +187,12 @@ export const Questions = [
         optionC: "ASH, Sash",
         optionD: "SHA, hash",
         answer: "D",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> Uniquely identifies each commit<br/>
+            <b>2. Reason for use:</b> To keep track and reference commits <br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[13]
@@ -125,6 +202,12 @@ export const Questions = [
         optionC: "Add the files to a folder and rename the folder to 'ignore'.",
         optionD: "Add the files to a local file called '.gitignore'.",
         answer: "D",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> Lets GitHub aware of commit changes to ignore<br/>
+            <b>2. Reason for use:</b> To have designated folder full of unused edits <br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[14]
@@ -134,6 +217,12 @@ export const Questions = [
         optionC: "Git Bronch",
         optionD: "Git Bronching",
         answer: "B",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> Create new branches in a project<br/>
+            <b>2. Reason for use:</b> To use, modify and update changes in the repository without affecting the original code<br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[15]
@@ -143,6 +232,12 @@ export const Questions = [
         optionC: "git Branch 'branch-name'  ",
         optionD: "git Brunch 'branch-name' ",
         answer: "A",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to create a new branch and give it a name<br/>
+            <b>2. Reason for use:</b> To use, modify and update changes in the repository without affecting the original code <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[16]
@@ -152,15 +247,27 @@ export const Questions = [
         optionC: "git checkout 'branch-name' ",
         optionD: "git checkin 'branch-name' ",
         answer: "C",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to go to a different branch<br/>
+            <b>2. Reason for use:</b> To use, modify and update changes in the repository without affecting the original code <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[17]
-        prompt: "How do you get a list of tags?",
+        prompt: "How do you get(make) a list of tags?",
         optionA: "git -get all-tags",
         optionB: "git all-tags",
         optionC: "git -get tags",
         optionD: "git tag",
         answer: "D",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to mark specific points in a repository's history as being important<br/>
+            <b>2. Reason for use:</b> To reference specific points in git history <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[18]
@@ -170,6 +277,12 @@ export const Questions = [
         optionC: "git shortlog -s -n | top -1",
         optionD: "git shortlog -b -n | first -1",
         answer: "A",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to list the developers in a project<br/>
+            <b>2. Reason for use:</b> To view the developers taking part in the project <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[19]
@@ -179,6 +292,12 @@ export const Questions = [
         optionC: "it creates a draft folder for storing all your files",
         optionD: "it stores file that are read-only",
         answer: "B",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to test code, builds and updates<br/>
+            <b>2. Reason for use:</b> To ensure quality under a production-like environment before application deployment <br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[20]
@@ -188,6 +307,12 @@ export const Questions = [
         optionC: "git review",
         optionD: "git open",
         answer: "B",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> it downloads commits, files and refs from a remote repository into your local repo<br/>
+            <b>2. Reason for use:</b> to fetch what everybody else has been working on in the repository <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[21]
@@ -197,6 +322,12 @@ export const Questions = [
         optionC: "git fork",
         optionD: "git pull",
         answer: "B",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to upload local repository content to a remote repository<br/>
+            <b>2. Reason for use:</b> to publish an upload local changes to a central repository (the forked repository)<br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[22]
@@ -206,6 +337,12 @@ export const Questions = [
         optionC: "A one of a kind folder that can exist only once in a project",
         optionD: "A remote repository that a project was first cloned from",
         answer: "D",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> the "origin" tells both the name of the remote repository and its location<br/>
+            <b>2. Reason for use:</b> It makes it easier to reference the remote repository without having to use the url <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[23]
@@ -215,6 +352,12 @@ export const Questions = [
         optionC: "Projects tab",
         optionD: "Issues tab",
         answer: "C",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to coordinate projects in tables or spreadsheets<br/>
+            <b>2. Reason for use:</b> to give a live canvas to filter, sort and group issues and pull requests <br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[24]
@@ -224,6 +367,12 @@ export const Questions = [
         optionC: "Arrow-up",
         optionD: "Pointer-up",
         answer: "A",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to rate a repository and bookmark it for later<br/>
+            <b>2. Reason for use:</b> to find topics you were interested in for later <br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[25]
@@ -233,6 +382,12 @@ export const Questions = [
         optionC: "Issues tab, Milestones",
         optionD: "Issues tab, Wiki tab",
         answer: "C",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to track your tasks, conversations,etc. in GitHub(1) To organize issues and merge requests and give them deadlines<br/>
+            <b>2. Reason for use:</b> to monitor feedback of your repository<br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[26]
@@ -242,6 +397,12 @@ export const Questions = [
         optionC: "Go to issues tab, Labels, then click on new label",
         optionD: "Go to issues tab, Labels, then edit documentation label",
         answer: "B",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to create tasks and view points to maintain control of day to day<br/>
+            <b>2. Reason for use:</b> to maintain the progress of a project <br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[27]
@@ -251,6 +412,12 @@ export const Questions = [
         optionC: "12",
         optionD: "15",
         answer: "A",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to divide the tasks of a project to other collaborators<br/>
+            <b>2. Reason for use:</b> to unload the work to other developers to a limited number of reliable people<br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[28]
@@ -260,6 +427,12 @@ export const Questions = [
         optionC: "category",
         optionD: "label",
         answer: "D",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to categorize issues, pull requests, and discussions<br/>
+            <b>2. Reason for use:</b> to sort and describes issues, pull requests and discussions<br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[29]
@@ -269,6 +442,12 @@ export const Questions = [
         optionC: "git Add 'cd/users/filename' ",
         optionD: "none of the above",
         answer: "A",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to add a change in the working directory to the staging area<br/>
+            <b>2. Reason for use:</b> tell Git you want to include updates to a particular file in the next commit <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[30]
@@ -278,6 +457,12 @@ export const Questions = [
         optionC: "Wiki tab",
         optionD: "Actions tab",
         answer: "C",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b>to share detailed, long-form information about your project<br/>
+            <b>2. Reason for use:</b> to share information about the repository on how to use it, how to design it and/or its core principles <br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[31]
@@ -287,6 +472,12 @@ export const Questions = [
         optionC: "git file",
         optionD: "git status",
         answer: "D",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to display the state of the working directory and the staging area<br/>
+            <b>2. Reason for use:</b> to see which changes have been staged, which haven't and which files are not being tracked by Git.  <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[32]
@@ -296,6 +487,12 @@ export const Questions = [
         optionC: "git logs",
         optionD: "none of the above",
         answer: "B",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to show a list of all commits made to a repository<br/>
+            <b>2. Reason for use:</b> to see the history of the repository <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[33]
@@ -305,6 +502,12 @@ export const Questions = [
         optionC: "git diffs",
         optionD: "none of the above",
         answer: "B",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to track the difference between the changes made on a file<br/>
+            <b>2. Reason for use:</b> to compare both staged and unstaged changes with your last commit <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[34]
@@ -314,6 +517,12 @@ export const Questions = [
         optionC: "git oldLogs -interactive",
         optionD: "none of the above",
         answer: "A",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> Orginzes branching paths and make the repository structure linear<br/>
+            <b>2. Reason for use:</b> To rebase the current branch onto the target branch <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[35]
@@ -323,6 +532,12 @@ export const Questions = [
         optionC: "git change-pick <sash>",
         optionD: "git change-pick <hash>",
         answer: "B",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to pick a commit from a repository<br/>
+            <b>2. Reason for use:</b> to undo a commit from a repository <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[36]
@@ -332,6 +547,12 @@ export const Questions = [
         optionC: "git commit -fix",
         optionD: "git commit --fix",
         answer: "B",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to modify your latest commit<br/>
+            <b>2. Reason for use:</b> to change or undo changes in your last commit <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[37]
@@ -341,6 +562,12 @@ export const Questions = [
         optionC: "git logs [commit]",
         optionD: "git show [commit]",
         answer: "D",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> Shows commits<br/>
+            <b>2. Reason for use:</b> to view expanded details on the commits <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[38]
@@ -350,6 +577,12 @@ export const Questions = [
         optionC: "git diff-tree -rm {hash}",
         optionD: "git diff-tree -rm {sash}",
         answer: "A",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to track the difference between the changes made on a file<br/>
+            <b>2. Reason for use:</b> to compare the commit of a tree object and the working directory <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[39]
@@ -359,6 +592,12 @@ export const Questions = [
         optionC: "git config -global userName 'Your name'",
         optionD: "git config -global UserName 'Your name'",
         answer: "A",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to set the configurations of your GitHub repository<br/>
+            <b>2. Reason for use:</b> to configure the username of your repository <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[40]
@@ -368,6 +607,12 @@ export const Questions = [
         optionC: "git revert HEAD~2..HEAD",
         optionD: "git revert {HEAD}",
         answer: "C",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to undo changes to a repository's latest commit history<br/>
+            <b>2. Reason for use:</b>to undo the changes you just did.  <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[41]
@@ -377,6 +622,12 @@ export const Questions = [
         optionC: "git reset file.name",
         optionD: "git reset file[name]",
         answer: "B",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to undo local changes to the state of a Git repo<br/>
+            <b>2. Reason for use:</b> to undo the changes in the specified file <br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[42]
@@ -386,6 +637,12 @@ export const Questions = [
         optionC: "It stashes copies of work.",
         optionD: "It is conveniently holds users edits while they work on something else.",
         answer: "D",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> to temporary shelf changes you've made to your working copy<br/>
+            <b>2. Reason for use:</b> to store your progressive chnages elsewhere while working on something else<br />
+            <b>3. Location used:</b> In terminal<br />
+            </p>,
     },
     {
         // i[43]
@@ -395,6 +652,13 @@ export const Questions = [
         optionC: "commit",
         optionD: "push",
         answer: "C",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> To move files from the staging area to a commit<br/>
+            <b>2. Reason for use:</b> to capture a snapshot of the proejct's currently staged changes<br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
+        
     },
     {
         // i[44]
@@ -404,6 +668,12 @@ export const Questions = [
         optionC: "Marketplace",
         optionD: "Features",
         answer: "C",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> contains tools that add functionality and imprbe your workflow<br/>
+            <b>2. Reason for use:</b> to discover and purchase tools that extend your workflow<br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[45]
@@ -413,6 +683,12 @@ export const Questions = [
         optionC: "GitHub repository",
         optionD: "GitHub actions",
         answer: "B",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> It is another repository to easily share repository data with others <br/>
+            <b>2. Reason for use:</b> Allows the sharing of code snippets, notes, and to-do lists and more<br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[46]
@@ -422,6 +698,12 @@ export const Questions = [
         optionC: "New business",
         optionD: "New organization",
         answer: "D",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> To create a new organization<br/>
+            <b>2. Reason for use:</b> To create an organization with certain grants in participation, push and other admin rights<br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[47]
@@ -431,6 +713,12 @@ export const Questions = [
         optionC: "it logs the number of users who have used your repository",
         optionD: "it counts the users who've seen your repository in their accounts",
         answer: "A",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> It notifies a user whenever there are any updates to a specifc repository <br/>
+            <b>2. Reason for use:</b> to subscribe to a repository and be updated<br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[48]
@@ -440,6 +728,12 @@ export const Questions = [
         optionC: "It simply allows users to see notifications",
         optionD: "none of the above",
         answer: "C",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b> It is a statusbar bell which notifies you about notification on GitHub <br/>
+            <b>2. Reason for use:</b> To see whenever there are notifications <br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     {
         // i[49]
@@ -449,6 +743,12 @@ export const Questions = [
         optionC: "git rm [file]",
         optionD: "git r [file]",
         answer: "C",
+        sum: <p>
+            <h2>Summary</h2>
+            <b>1. Function:</b>It is to remove tracked flles from the Git index <br/>
+            <b>2. Reason for use:</b> to remove a file from a Git index<br />
+            <b>3. Location used:</b> In GitHub<br />
+            </p>,
     },
     
 ];

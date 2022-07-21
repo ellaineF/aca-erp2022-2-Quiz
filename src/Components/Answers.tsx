@@ -47,6 +47,9 @@ function Answers(){
                             <div className="CorrectAnswer">
                                 <label>Answer: {Questions[currentQuestion].answer}</label>
                             </div>
+                            <div className="Summary">
+                                <label>{Questions[currentQuestion].sum}</label>
+                            </div>
 
                         </div>  
                     }
