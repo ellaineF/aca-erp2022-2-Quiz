@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import logo from '../aca.png';
 import '../App.css';
 import { useNavigate } from 'react-router-dom';
-import { QuizContext } from "../Context/QuizContext";
+import { QuizContextss } from "../Context/QuizContext";
 
 function EndScreen(){
     const navigate = useNavigate();
@@ -15,7 +15,7 @@ function EndScreen(){
         navigate("/Answers");
     }
 
-    const { finalScore, setFinalScore } = useContext(QuizContext);
+    //const { finalScore, setFinalScore } = useContext();
 
     return(
         <div className="App">
@@ -24,7 +24,7 @@ function EndScreen(){
 
             <h3 className="Title">End of Quiz</h3>
 
-            <p>You scored {setFinalScore(finalScore)}</p>
+            {/*<p>You scored {setFinalScore(finalScore)}</p>*/}
             
             <button onClick={viewAnswers} className='StartButton'>See All Answers</button>
             <button onClick={retakeQuiz} className='RestartButton'>Re-take Quiz</button>        
