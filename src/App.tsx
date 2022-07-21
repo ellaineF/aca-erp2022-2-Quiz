@@ -4,7 +4,7 @@ import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import MainScreen from './Components/MainScreen';
 import QuizStart from './Components/QuizStart';
 import EndScreen from './Components/EndScreen';
-import Answers from './Components/Answers';
+import Answers from './Data/Answers';
 
 function App() {
   const [finalScore,setFinalScore] = useState(0);

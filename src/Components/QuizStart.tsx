@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from '../aca.png';
 import '../App.css';
 import { useNavigate } from 'react-router-dom';
-import { Questions } from './Questions';
+import { Questions } from '../Data/Questions';
 import { Link } from 'react-router-dom';
 import EndScreen from "./EndScreen";
 import { QuizContextss } from "../Context/QuizContext";
