@@ -5,15 +5,19 @@ import { useNavigate } from 'react-router-dom';
 import { Questions } from './Questions';
 import { Link } from 'react-router-dom';
 import EndScreen from "./EndScreen";
+import { QuizContextss } from "../Context/QuizContext";
 
 function QuizStart(){
     // Used to go through pages
     const navigate = useNavigate();
 
     // Track score, questions and answers
+    const [showEnd, setShowEnd] = useState(false);
     const [score, setScore] = useState(0);   
+    const [finalScore, setFinalScore] = useState(0);   
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [chosenOption, setChosenOption] = useState("hello");
+
 
     const nextQuestion = () => {
 
@@ -22,11 +26,13 @@ function QuizStart(){
         }
         //alert(score);
         setCurrentQuestion(currentQuestion + 1);
+        
     }
 
     const lastScreen = () =>{
         if(Questions[currentQuestion].answer == chosenOption){
             setScore(score + 1);
+            setFinalScore(score);
         }
         navigate("/EndScreen")
     }
@@ -48,8 +54,10 @@ function QuizStart(){
 
             {/*QUESTIONS*/}
             <div className="QuestionCard">
-                  <p className="Score">Score: {score}</p>
-
+                  <h3 className="question">Question {currentQuestion + 1}/{Questions.length}</h3>
+                  
+                        <p className="Score">Score: {score}</p>
+                  
                   <h1 className="prompt">
                     {Questions[currentQuestion].prompt}
                   </h1>

@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import logo from '../aca.png';
 import '../App.css';
 import { useNavigate } from 'react-router-dom';
-import { Questions } from "./Questions";
+import { QuizContext } from "../Context/QuizContext";
 
 function EndScreen(){
     const navigate = useNavigate();
@@ -15,12 +15,16 @@ function EndScreen(){
         navigate("/Answers");
     }
 
+    const { finalScore, setFinalScore } = useContext(QuizContext);
+
     return(
         <div className="App">
         <header className="App-header">
             <img src={logo} style={{maxWidth:150, maxHeight:150}} className="App-logo" alt="logo" />   
 
             <h3 className="Title">End of Quiz</h3>
+
+            <p>You scored {setFinalScore(finalScore)}</p>
             
             <button onClick={viewAnswers} className='StartButton'>See All Answers</button>
             <button onClick={retakeQuiz} className='RestartButton'>Re-take Quiz</button>        

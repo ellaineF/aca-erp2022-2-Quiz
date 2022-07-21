@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import './App.css';
 import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import MainScreen from './Components/MainScreen';
@@ -7,6 +7,7 @@ import EndScreen from './Components/EndScreen';
 import Answers from './Components/Answers';
 
 function App() {
+  const [finalScore,setFinalScore] = useState(0);
     return(
       <Router>
         <Routes>
